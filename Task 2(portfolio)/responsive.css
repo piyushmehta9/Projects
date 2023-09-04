@@ -1,0 +1,305 @@
+/*navigation*/
+
+
+#nav {
+
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+#nav img {
+    height: 30px;
+    width: 30px;
+    margin: 12px;
+}
+
+#nav ul li {
+    margin: 5px 10px;
+    padding: 10px;
+}
+
+#nav ul li a {
+
+    font-size: 0.7rem;
+    padding: 4px;
+    margin: 2px;
+
+}
+
+.btn {
+
+    left: 20px;
+    top: 18px;
+    padding: 2px;
+    position: relative;
+}
+
+/* Home */
+
+
+
+#home {
+    height: 400px;
+    display: flex;
+    align-items: center;
+
+}
+
+#introimg {
+    padding: 6px;
+    margin-left: 20px;
+    width: 50%;
+}
+
+#intro {
+    padding: 6px;
+    width: 100%;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+#intro p {
+    padding: 10px 0px;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+}
+
+.h-primary {
+    font-size: 1.2rem;
+}
+
+#introimg img {
+    width: 150px;
+    height: 160px;
+    border: 2px solid #0ef;
+}
+
+/* About me */
+
+#aboutme {
+    display: flex;
+    align-items: center;
+
+    height: 500px;
+}
+
+#about {
+
+    padding: 6px;
+    margin: 6px;
+    margin-left: 30px;
+    width: 40%;
+}
+
+#about p {
+    padding: 12px;
+    width: 100%;
+    font-size: 0.8rem;
+
+}
+
+.btn2 {
+
+    padding: 4px;
+    margin-left: 20px;
+    border-radius: 40px;
+    border: 2px solid #0ef;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+
+}
+
+#aboutimg img {
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.h-primary2 {
+    font-size: 1.2rem;
+    padding: 2px;
+}
+
+/* specializing in */
+
+
+#special {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#special .box {
+    margin: 5px 10px;
+    padding: 8px;
+}
+
+#special .box p {
+    font-size: 0.8rem;
+}
+
+#special .box img {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: auto;
+}
+
+.h-tertiary {
+    color: #0ef;
+    font-size: 1.2rem;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+.h-tertiary2 {
+    color: #fff;
+    font-size: 1rem;
+    padding: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+/* skills */
+#skill {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.skills {
+
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+#skillimg img {
+    height: 100px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 40px;
+
+}
+
+.skills p {
+    font-size: 0.7rem;
+    margin-left: 4px;
+    font-weight: 600;
+    font-family: "lexend", sans-serif;
+}
+
+.progress {
+
+    width: 200px;
+    height: 14px;
+    border-radius: 5px;
+}
+
+
+.progress div {
+    height: 14px;
+    border-radius: 5px;
+    width: 0%;
+}
+
+.h-secondary {
+
+    padding: 2px;
+    margin: 10px;
+    font-size: 1.3rem;
+
+
+}
+
+.h-secondary2 {
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+
+}
+
+/* Contact */
+
+
+#contact {
+    height: 500px;
+}
+
+
+.h-tertiary3 {
+
+    font-size: 1.3rem;
+    padding: 20px;
+    margin-top: 10px;
+
+}
+
+#contactbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 14px;
+    margin-top: 5px;
+}
+
+#contactbox input,
+#contactbox textarea {
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 10px;
+
+}
+
+#contactbox form {
+    width: 50%;
+
+    padding: 25px;
+    box-shadow: 0 0 5px #0ef;
+}
+
+#contactbox label {
+    font-size: 1rem;
+    padding: 0px;
+    font-weight: 400;
+
+}
+
+.btn3 {
+
+    padding: 6px;
+    margin-top: 10px;
+    margin-left: 85px;
+    border: 2px solid #0ef;
+    letter-spacing: 0.5px;
+}
+
+/* footer */
+
+footer {
+    font-size: 0.9rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    height: 35px;
+
+}
+
+.footer p {
+    margin: 15px 15px;
+    color: #fff;
+}
